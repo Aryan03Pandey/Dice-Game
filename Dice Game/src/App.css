@@ -1,0 +1,130 @@
+*, *::before, *::after{
+  padding: 0;
+  margin: 0;
+}
+body{
+  font-family: 'Poppins', sans-serif;
+}
+
+h1{
+  font-size: 96px;
+  font-weight: 700;
+}
+
+.container{
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  width: 1200px;
+  gap: 0rem;
+  margin-top: 90px;
+}
+
+.intro-image{
+  width: 649px;
+  height: 522px;
+  object-fit: contain;
+}
+
+.intro-text{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.btn{
+  width: 220px;
+  height: 44px;
+  border-radius: 5px;
+  padding: 10px 18px 10px 18px;
+  background-color: white;
+  color: black;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+
+  &:hover{
+    background-color: white;
+    color: black;
+    transition: 0.2s;
+  }
+}
+.black-btn{
+  background-color: black;
+  color: white;
+}
+
+.number{
+  width: 72px;
+  height: 72px;
+  border: 1px solid black;
+  font-size: 24px;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+  background-color: white;
+}
+
+.select-number{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 10px;
+}
+
+.numbers-container{
+  display: flex;
+  gap: 24px;
+}
+
+.instruction-container p{
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.upper-section{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+.score h2{
+  font-size: 80px;
+  line-height: 1;
+  display: grid;
+  place-items: center;
+}
+
+.gameplay-container{
+  margin: 1rem;
+}
+
+.game-area{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1rem;
+}
+.reset{
+  margin-top: 2rem;
+}
+
+.rules{
+  margin-top: 1rem;
+}
+
+.instructions{
+  background-color: bisque;
+  padding: 1rem;
+  border-radius: 1rem;
+  margin-top: 1rem;
+}
+.instructions li{
+  list-style: none;
+}
+.instructions h2{
+  font-size: 1rem;
+}
+.instructions ul{
+  font-size: 12px;
+}
